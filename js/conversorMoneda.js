@@ -1,36 +1,29 @@
 
-let currency = prompt("Ingresa la divisa que queres comprar").toLowerCase;
+let currency;
 
-let pesos = 0;
+let pesos;
 
 do {
 
-let pesos = parseInt(prompt("Ingresa el monto en pesos que queres cambiar"));
+ currency = prompt("Ingresa la divisa que queres comprar: dolar, euro, libra o real").toLowerCase();
 
-/* let dolar = (pesos * 312);
-
-let euro = (pesos * 298);
-
-let libra = (pesos * 348);
-
-let real = (pesos * 123); */
-
+ pesos = parseInt(prompt("Ingresa el monto en pesos que queres cambiar"));
 
 switch(currency) {
 
-    case "dolar": console.log(`Por el monto de ${pesos} pesos, obtendras ` + (pesos * 312) + ` ` + `dolares`)
+    case "dolar": let resultado = parseFloat(pesos/312).toFixed(2); console.log(`Por el monto de ${pesos} pesos, obtendras ${resultado} dolares`)
 
     break;
 
-    case "euro": console.log(`Por el monto de ${pesos} pesos, obtendras ` + (pesos * 298) + " " + "euros")
+    case "euro": let resultado1 = parseFloat(pesos/298).toFixed(2); console.log(`Por el monto de ${pesos} pesos, obtendras  ${resultado1} euros`)
 
     break;
 
-    case "libra": console.log(`Por el monto de ${pesos} pesos, obtendras ` + (pesos * 348) + " " + "libras")
+    case "libra": let resultado2 = parseFloat(pesos/348).toFixed(2); console.log(`Por el monto de ${pesos} pesos, obtendras ${resultado2} libras`)
     
     break;
 
-    case "real": console.log(`Por el monto de ${pesos} pesos, obtendras ` + (pesos * 123) + " " + "reales")
+    case "real": let resultado3 = parseFloat(pesos/123).toFixed(2); console.log(`Por el monto de ${pesos} pesos, obtendras ${resultado3} reales`)
 
     break;
 
@@ -40,13 +33,17 @@ switch(currency) {
 
 }
 
- currency = prompt("Ingresa la divisa que queres comprar").toLowerCase;
+} while (pesos != 0);
 
- pesos = parseInt(prompt("Ingresa el monto en pesos que queres cambiar"));
+ 
 
-}
 
-while (pesos > 0);
+
+
+
+
+
+
 
 
 
