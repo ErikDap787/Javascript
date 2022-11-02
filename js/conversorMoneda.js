@@ -1,7 +1,7 @@
 
 let currency;
 
-let pesos = 0;
+let pesos;
 
 do {
 
