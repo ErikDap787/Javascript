@@ -21,14 +21,11 @@ function consolaElegida() {
 
         let resultado2 = consolas.filter(consola => consola.stock != 0)
 
-        console.log(resultado2)
 
         let consolasEnStock = resultado2.map(el => {return {
             nombre: el.nombre
         }
     })
-
-        console.log(consolasEnStock)
 
             let salida= ""
 
@@ -37,8 +34,6 @@ function consolaElegida() {
             }
 
             alert(`Las consolas disponibles actualmente son ${salida}`)
-
-     
 
      
     }
