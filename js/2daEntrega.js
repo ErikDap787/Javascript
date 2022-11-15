@@ -33,12 +33,10 @@ function consolaElegida() {
             let salida= ""
 
             for (let consola of consolasEnStock) {
-               salida = salida + consolasEnStock.nombre + " "
+               salida = salida + consola.nombre + " "
             }
 
-            console.log(salida)
-            
-            console.log(`Las consolas disponibles actualmente son ${salida}`)
+            alert(`Las consolas disponibles actualmente son ${salida}`)
 
      
 
@@ -49,22 +47,3 @@ function consolaElegida() {
 
 consolaElegida()
 
-    /* alert(`Las consolas disponibles actualmente son ${consolasEnStock.nombre.join(", ")}`) */
-    
-/*let nombres = "";
-
-nombres = resultado2.forEach(el => console.log(el.nombre));
-
-  
-
-    Excelente, también podés iterar el array de resultados y pushear a un nuevo array los objeto.nombres,
-     luego con el método de arrays join ingresar en el alert la impresión de los elementos.
-
-     resultado2.forEach(el => console.log (el.nombre))
-}
-*/
-
- /*for (let consola of consolasEnStock) {
-            alert(`Las consolas disponibles actualmente son ${consolasEnStock}`)
-
-        } */
