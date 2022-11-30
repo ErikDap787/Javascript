@@ -9,8 +9,6 @@ let consolas = [
 
 
 
-let carrito = document.getElementById("carrito")
-
 let container = document.getElementById("container")
 
 let arrayCarrito = []
