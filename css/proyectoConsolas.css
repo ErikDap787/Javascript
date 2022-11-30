@@ -1,0 +1,95 @@
+body {
+
+    background-color: black;
+}
+
+h1 {
+    display:flex;
+    font-size: 60px;
+    padding: 1rem;
+    margin-bottom: 5rem;
+    justify-content: center;
+    align-content: center;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex
+}
+
+#input{
+    display: flex;
+    width: 25rem;
+    height: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+
+} 
+
+#buscar{
+    display: flex;
+    width: 6rem;
+    height: 2rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color:rgb(98, 141, 177);
+
+}
+
+.card{
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid grey;
+    width: 45rem;
+    height: 15rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: black;
+    color:whitesmoke;
+    
+}
+
+.noStockCard{
+    display: flex;
+    justify-content: flex-start;
+    border: 2px solid red;
+    width: 45rem;
+    height: 15rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: black;
+    color:whitesmoke;
+
+}
+
+.img{
+    display: flex;
+    width: 25rem;
+    height: 8rem;
+}
+
+.list{
+    list-style: none;
+}
+.img{
+    width: 13rem;
+    height: 13rem;
+}
+.button{
+    border:none;
+    height: 3rem;
+    width: 8.5rem;
+    cursor: pointer;
+    background-color:rgb(98, 141, 177);
+    padding: 1rem;
+    margin-left: 2rem;
+    margin-top: 10rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
