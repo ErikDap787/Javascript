@@ -78,7 +78,7 @@ function agregarAlCarrito(idAAgregar) {
 
   if (productoEnCarrito) {
 
-    productoEnCarrito.contador++;
+    productoEnCarrito.contador++
 
     productoEnCarrito.precio = productoEnCarrito.precio * productoEnCarrito.contador
 
