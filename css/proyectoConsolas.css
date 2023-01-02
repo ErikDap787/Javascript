@@ -93,3 +93,32 @@ h1 {
     font-style: italic;
     font-weight: bold;
 }
+
+#carrito{
+    display: flex;
+    border: 2px solid grey;
+    width: 25rem;
+    height: 10rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: whitesmoke;
+}
+
+.itemCarrito {
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+  }
+  
+#carrito h3 {
+    display: inline;
+    margin: 0 5px;
+    
+
+  }
+
+#carrito p{
+    display:flex;
+
+}
+
